@@ -1,0 +1,142 @@
+html{
+    background-color: #fbfbfb;
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+body {
+	margin: auto;
+	font-family: Helvetica, Arial, sans-serif;
+	color: #666;
+	background: #f2f2f2; 
+	font-size: 1em;
+	line-height: 1.5em;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* Estas líneas de CSS las usaremos para dar estilo a la cabecera: */
+
+#main-header {
+	background: #fbfbfb;
+	color: black;
+	height: 80px;
+    border-bottom: #CAC7CA 3px solid;
+    margin-bottom: 8px;
+}	
+	#main-header a {
+		color: black;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+    
+}
+	#logo-header:hover {
+		color: #af599e;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 0;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 20px;
+				text-decoration: none;
+                
+			}
+			
+				nav ul li a:hover {
+					background: #af599e;
+                    font-weight: bold;
+                    border-radius: 16px;
+                    padding: 0;
+                    font-size: 1.8em;
+				}
+
+footer{
+    background-color: #af599e;
+    height: 80px;
+    text-align: center;
+    padding-top: 15px;
+    color: white
+}
+
+
+.logo {
+    border-radius: 30%;
+    width: 250px;
+}
+
+.hablemos {
+    color: black;
+    background-color: #F5AAF2;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-shadow: #0f0f0f;
+    border-radius: 10px;
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 3px 5px 3px 5px;
+ 
+}
+
+.container  {
+display: flex;
+justify-content: space-around;
+
+
+}
+
+.botomcurri {
+    text-decoration: none;
+    color: white;
+    font-size: 1.6em;
+    background-color: #af599e;
+    border-radius: 16px;
+    padding: 5px 12px 5px 12px;
+    cursor: pointer;
+    
+}
+
+.content {
+    text-align: center;
+}
